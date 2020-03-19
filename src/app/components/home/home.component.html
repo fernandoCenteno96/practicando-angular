@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="articulo border border-primary mt-1 pl-2" *ngFor="let articulo of articulos">
+
+        <h4 (click)="irAlDetalle(articulo)">{{articulo.titulo}}</h4>
+        <p>{{articulo.descripcion}}</p>
+        <p>{{articulo.fecha}}
+        </p>
+        <p>{{articulo.usuario}}</p>
+    </div>
+    
+</div>
